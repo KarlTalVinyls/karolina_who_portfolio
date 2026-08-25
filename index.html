@@ -453,11 +453,11 @@
             </div>
             <div class="project-stats">
               <div class="project-stat">
-                <span class="project-stat__value">356</span>
+                <span class="project-stat__value" id="tiktok-followers">356</span>
                 <span class="project-stat__label">Followers</span>
               </div>
               <div class="project-stat">
-                <span class="project-stat__value">9.7k</span>
+                <span class="project-stat__value" id="tiktok-likes">9.7k</span>
                 <span class="project-stat__label">Likes</span>
               </div>
               <div class="project-stat">
@@ -465,6 +465,7 @@
                 <span class="project-stat__label">Top video</span>
               </div>
             </div>
+            <p class="project-stat__updated" id="tiktok-updated"></p>
           </div>
 
           <div class="project-card__body">
@@ -686,6 +687,24 @@
         document.getElementById('tab-' + tab.dataset.tab).hidden = false;
       });
     });
+
+    // ── Vinyl TikTok live stats ──
+    fetch('tiktok-stats.json', { cache: 'no-store' })
+      .then(res => res.ok ? res.json() : Promise.reject())
+      .then(data => {
+        if (data.followers != null) {
+          document.getElementById('tiktok-followers').textContent = data.followers.toLocaleString();
+        }
+        if (data.likes) {
+          document.getElementById('tiktok-likes').textContent = data.likes;
+        }
+        if (data.updatedAt) {
+          const date = new Date(data.updatedAt);
+          document.getElementById('tiktok-updated').textContent =
+            'Live stats from @karllovevinyls · updated ' + date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+        }
+      })
+      .catch(() => { /* keep the fallback numbers already in the HTML */ });
 
     // ── Timeline accordion ──
     document.querySelectorAll('.timeline__header').forEach(btn => {
