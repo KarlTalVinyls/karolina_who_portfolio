@@ -667,11 +667,6 @@ img { max-width: 100%; display: block; }
   margin-top: 0.3rem;
 }
 
-.project-stat__updated {
-  font-size: 0.72rem;
-  color: var(--ink-60);
-  margin-top: 0.5rem;
-}
 
 .project-card__body {
   padding: 2rem 2.5rem;
