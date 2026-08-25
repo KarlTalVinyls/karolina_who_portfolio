@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karolina Talutyte — Portfolio</title>
+  <meta name="description" content="Project Administrator and Marketing Manager based in Rotterdam. Partner programmes, event logistics, tools you can actually see." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&family=Urbanist:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav class="nav" id="top">
+    <a class="nav__logo" href="#top">talu.studio</a>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Work</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="nav__cta">Get in touch</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Open menu" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <h1 class="hero__headline">
+          I make ideas into impact.<br />
+          <em>Making connections and strong brands.</em>
+        </h1>
+        <p class="hero__sub">
+          I plan things for a living: projects, campaigns, events, partnerships.
+          The common thread across every role I've had is making sure the right
+          people have what they need, when they need it.
+        </p>
+        <div class="hero__actions">
+          <a href="#experience" class="btn btn--primary">See my work</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero__logo-wrap">
+        <img src="logo.png.png" alt="Talu.Studio" class="hero__logo" />
+      </div>
+    </div>
+    <div class="hero__stripe"></div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__left">
+          <span class="label-tag">About</span>
+          <div class="about__photo-wrap">
+            <img
+              src="photo.jpg"
+              alt="Karolina Talutyte"
+              class="about__photo"
+              onerror="this.closest('.about__photo-wrap').style.display='none'"
+            />
+          </div>
+        </div>
+        <div class="about__content">
+          <h2 class="about__heading">
+            Driving growth through <em>innovative strategies.</em>
+          </h2>
+          <p>
+            With a focus on supporting businesses and leveraging research-driven insights,
+            I develop marketing initiatives that boost sales and brand visibility across
+            B2B and B2C channels. My portfolio highlights work that combines creative
+            social media campaigns with targeted marketing strategies to deliver
+            measurable results and foster long-term growth.
+          </p>
+          <a href="Karolina_T_CV.pdf" class="btn btn--outline" download>Download CV</a>
+        </div>
+      </div>
+
+      <div class="about__photos">
+        <div class="about__photo-card">
+          <img src="1756723086873 (1).jpg" alt="Karolina at McLaren F1 event" class="about__photo-card-img" />
+          <p class="about__photo-caption">I have a strong passion for F1.</p>
+        </div>
+        <div class="about__photo-card">
+          <img src="about-2.jpg.jpg" alt="Karolina volunteering at Dutch Grand Prix" class="about__photo-card-img" />
+          <p class="about__photo-caption">I volunteer for the past 9 years.</p>
+        </div>
+        <div class="about__photo-card">
+          <img src="PortXL 105-min.jpg" alt="Karolina at PortXL Innovation Walk" class="about__photo-card-img" />
+          <p class="about__photo-caption">I enjoy organising events, taking pictures and socialise with guests.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ── -->
+  <section class="section section--tinted" id="experience">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Work</span>
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Nov 2025 to Present</span>
+              <span class="timeline__company">Tk Maxx</span>
+            </div>
+            <span class="timeline__role">Retail &amp; Merchandise Associate</span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Supported promotional campaigns and seasonal launches, contributing to in-store brand experience and visual standards</li>
+                <li>Delivered high-quality customer service, building positive relationships to encourage repeat visits and brand loyalty</li>
+                <li>Practised Dutch daily in a multilingual retail environment while actively upskilling in project administration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Apr to Sep 2025</span>
+              <span class="timeline__company">Apolix B.V</span>
+            </div>
+            <span class="timeline__role">Project Administrator <span class="badge">Temporary</span></span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Drove Salesforce implementation and delivered hands-on platform training to senior managers, accelerating team adoption</li>
+                <li>Managed the Celonis vendor partnership, owning weekly communications and keeping deliverables on track</li>
+                <li>Maintained cross-functional project coordination through resource planning, timecard approvals and structured meeting facilitation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Feb 2024 to Mar 2025</span>
+              <span class="timeline__company">Huawei Netherlands</span>
+            </div>
+            <span class="timeline__role">Marketing Manager</span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Built and managed joint marketing programmes with 20 Benelux channel partners, directly supporting sales pipeline growth</li>
+                <li>Launched a partner community platform with a reward system, strengthening partner loyalty and engagement across the region</li>
+                <li>Owned end-to-end event delivery (workshops, award shows, trade fairs and conferences) across the Benelux market</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Sep 2023 to Jan 2024</span>
+              <span class="timeline__company">Independent</span>
+            </div>
+            <span class="timeline__role">Projects &amp; Upskilling</span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Supported small businesses with social media campaign setup and content planning, building hands-on client-facing skills</li>
+                <li>Completed project management certifications to formalise operational expertise</li>
+                <li>Volunteered in local community events, maintaining professional momentum during a career transition</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Aug 2022 to Aug 2023</span>
+              <span class="timeline__company">PortXL</span>
+            </div>
+            <span class="timeline__role">Communications &amp; Marketing Specialist</span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Created B2B marketing and communications strategies for high-profile clients including Van Oord, Boskalis and the Port of Rotterdam</li>
+                <li>Led website development projects covering design updates, content creation and UX optimisation</li>
+                <li>Wrote press releases and articles published on the PortXL platform, raising the accelerator's visibility in the maritime sector</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Oct 2021 to Jul 2022</span>
+              <span class="timeline__company">vidaXL</span>
+            </div>
+            <span class="timeline__role">Content Integration Specialist</span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Integrated B2B and B2C product content for international retailers including Target US and Decathlon Benelux using Mirakl and ProductsUp</li>
+                <li>Trained Account Managers and Product Owners on backend content systems, improving team self-sufficiency</li>
+                <li>Managed and structured product data in Excel and XML formats, ensuring accuracy across global catalogues</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Feb to Jul 2021</span>
+              <span class="timeline__company">ReloAdvisor</span>
+            </div>
+            <span class="timeline__role">Sales &amp; Marketing Specialist</span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Designed and executed marketing strategies focused on improving conversion rates across digital channels</li>
+                <li>Managed SEO/SEA campaigns including Google Ads to drive qualified traffic and lead generation</li>
+                <li>Led social media marketing and content development, building brand presence and audience engagement</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Sep 2019 to May 2020</span>
+              <span class="timeline__company">Saxion UAS</span>
+            </div>
+            <span class="timeline__role">Student Assistant</span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Assisted in teaching event management, translating academic theory into practical skills for students</li>
+                <li>Developed assessment schemes and grading rubrics, supporting academic quality and consistency</li>
+                <li>Advised student teams on social media campaign strategy, helping them build real-world marketing skills</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <button class="timeline__header" aria-expanded="false">
+            <div class="timeline__meta">
+              <span class="timeline__date">Feb to Jul 2019</span>
+              <span class="timeline__company">Safestay Madrid</span>
+            </div>
+            <span class="timeline__role">Hospitality Internship</span>
+            <svg class="timeline__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="timeline__body">
+            <div class="timeline__body-inner">
+              <ul class="timeline__bullets">
+                <li>Managed full front desk operations including reservations, guest check-ins and responding to reviews</li>
+                <li>Carried out night auditing duties, preparing financial reports and ensuring seamless handover for morning shifts</li>
+                <li>Oversaw food &amp; beverage operations including breakfast service, dinner organisation and bar assistance</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /timeline -->
+    </div>
+  </section>
+
+  <!-- ── TOOLS ── -->
+  <section class="section" id="tools">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Skills</span>
+        <h2>Tools &amp; Platforms</h2>
+      </div>
+      <div class="tools__grid">
+        <div class="tool-group">
+          <h4>CRM &amp; Project</h4>
+          <div class="tags">
+            <span class="tag">Salesforce</span>
+            <span class="tag">Certinia</span>
+            <span class="tag">Jira</span>
+            <span class="tag">Confluence</span>
+            <span class="tag">Asana</span>
+            <span class="tag">Airtable</span>
+            <span class="tag">Miro</span>
+            <span class="tag">Notion</span>
+          </div>
+        </div>
+        <div class="tool-group">
+          <h4>Marketing &amp; Analytics</h4>
+          <div class="tags">
+            <span class="tag">Google Analytics</span>
+            <span class="tag">Google Ads</span>
+            <span class="tag">LinkedIn Ads</span>
+            <span class="tag">Facebook Ads</span>
+            <span class="tag">MailChimp</span>
+          </div>
+        </div>
+        <div class="tool-group">
+          <h4>Data &amp; Reporting</h4>
+          <div class="tags">
+            <span class="tag">Power BI</span>
+            <span class="tag">Microsoft 365</span>
+            <span class="tag">Mirakl</span>
+            <span class="tag">ProductsUp</span>
+          </div>
+        </div>
+        <div class="tool-group">
+          <h4>Design &amp; Web</h4>
+          <div class="tags">
+            <span class="tag">Canva</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Adobe Illustrator</span>
+            <span class="tag">Adobe Premiere Pro</span>
+            <span class="tag">WordPress</span>
+            <span class="tag">Shopify</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="tool-group">
+          <h4>AI Tools</h4>
+          <div class="tags">
+            <span class="tag tag--accent">ChatGPT</span>
+            <span class="tag tag--accent">Claude</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="certifications">
+        <h4>Certifications</h4>
+        <div class="tags">
+          <span class="tag tag--outline">Google Ads Display</span>
+          <span class="tag tag--outline">Google Analytics</span>
+          <span class="tag tag--outline">HubSpot Social Media</span>
+          <span class="tag tag--outline">Microsoft Power BI</span>
+          <span class="tag tag--outline">Branding</span>
+          <span class="tag tag--outline">Coaching Leadership</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INTERESTS ── -->
+  <section class="section section--dark" id="interests">
+    <div class="container">
+      <div class="section__header section__header--light">
+        <span class="label-tag label-tag--light">Beyond work</span>
+        <h2>Interests</h2>
+      </div>
+      <div class="interests__grid">
+
+        <div class="interest-card">
+          <div class="interest-card__icon">&#9421;</div>
+          <h3>Vinyl Collecting</h3>
+          <p>
+            I've been collecting records for years — and it's closer to a system
+            than a hobby. Sourcing, condition grading, cataloguing, budgeting.
+            You track genre, pressing country, label variation. It's obsessive
+            in a way that translates surprisingly well to project work.
+          </p>
+          <p class="interest-card__link">
+            <a href="https://www.tiktok.com/@karllovevinyls" target="_blank" rel="noopener">
+              @karllovevinyls on TikTok ↗
+            </a>
+          </p>
+        </div>
+
+        <div class="interest-card">
+          <div class="interest-card__icon">&#127937;</div>
+          <h3>Formula 1 Volunteering</h3>
+          <p>
+            Five consecutive years volunteering at the Dutch Grand Prix at
+            Zandvoort (2021–2025). Logistics, guest operations, on-site
+            coordination — one of the most complex event setups in Europe, with
+            tens of thousands of visitors and zero margin for error on race day.
+          </p>
+          <p class="interest-card__note">Dutch Grand Prix · Zandvoort · 2021–2025</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="section section--tinted" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <span class="label-tag">Projects</span>
+        <h2>Personal work</h2>
+      </div>
+
+      <!-- Tab buttons -->
+      <div class="project-tabs" role="tablist">
+        <button class="project-tab project-tab--active" role="tab" aria-selected="true" data-tab="tiktok">Vinyl TikTok</button>
+        <button class="project-tab" role="tab" aria-selected="false" data-tab="webdev">Website development</button>
+        <button class="project-tab" role="tab" aria-selected="false" data-tab="articles">Articles</button>
+      </div>
+
+      <!-- ── Tab: Vinyl TikTok ── -->
+      <div class="project-panel" id="tab-tiktok">
+        <div class="project-card">
+          <div class="project-card__top">
+            <div class="project-card__meta">
+              <h3 class="project-card__title">Vinyl TikTok — <a href="https://www.tiktok.com/@karllovevinyls" target="_blank" rel="noopener">@karllovevinyls</a></h3>
+              <p class="project-card__subtitle">Social media · Content creation · Community building</p>
+            </div>
+            <div class="project-stats">
+              <div class="project-stat">
+                <span class="project-stat__value">356</span>
+                <span class="project-stat__label">Followers</span>
+              </div>
+              <div class="project-stat">
+                <span class="project-stat__value">9.7k</span>
+                <span class="project-stat__label">Likes</span>
+              </div>
+              <div class="project-stat">
+                <span class="project-stat__value">20k+</span>
+                <span class="project-stat__label">Top video</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card__body">
+            <img src="tiktok.PNG" alt="karllovevinyls TikTok profile" class="project-card__screenshot" />
+            <p>I wanted to test the waters and use my favourite social media platform, TikTok, to create a new project for myself. The goal is to learn about the TikTok algorithm, micro-trends, and how to drive engagement.</p>
+            <p>I chose to create content about my vinyl collection. I started collecting earlier this year and thought it might be interesting to post about my records and build a community of vinyl enthusiasts.</p>
+            <p>The theme is being goofy and relatable. I wanted to use this as a tool to practice public speaking and develop my overall online presence. I believe that, as a marketer, video editing skills are essential. That's why I took this personal project and made it part of my portfolio. I started from zero, and as of today, I have 35 genuine followers and 2.4k likes. These stats are growing daily as I post content weekly. Ultimately, I want to post daily to make sure I stay relevant and consistent.</p>
+            <p>My most successful video has over 15,000 views. This success was due to capitalising on trendy content — Lady Gaga re-released vinyls, which collectors were sharing around the same time. Additionally, I used trendy audio to make the video cute and relatable.</p>
+
+            <h4 class="project-card__subheading">How do I plan my content ideas?</h4>
+            <p>I was searching for optimal tools when I discovered Notion. It helps me organise all my content ideas and schedule them throughout the calendar. I noticed that this tool can be ideal for marketing campaigns, social media post scheduling, and much more.</p>
+            <p>For example, my last video had no editing because I wanted my audience to see the raw material, just as I am.</p>
+
+            <h4 class="project-card__subheading">What are my expectations?</h4>
+            <p>The ultimate goal is to grow a genuine community where vinyl collectors can share their opinions, showcase unique pieces, and have fun.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Tab: Website development ── -->
+      <div class="project-panel" id="tab-webdev" hidden>
+        <div class="project-card">
+          <div class="project-card__top">
+            <div class="project-card__meta">
+              <h3 class="project-card__title">Website development</h3>
+              <p class="project-card__subtitle">UX · Web design · Brand identity</p>
+            </div>
+          </div>
+
+          <div class="project-card__body">
+            <p>My journey with website development began during my university years, where I had many projects that required creating demos.</p>
+            <p>I continued to apply these practices throughout my corporate jobs, learning about user experience, trends, and consumer patterns.</p>
+            <p>Now, I'm confident in helping businesses enhance their online presence and generate genuine leads.</p>
+            <p>This page showcases some of my projects from university to the present day. Please note that some of these websites were not fully conceptualised.</p>
+
+            <h4 class="project-card__subheading">University projects</h4>
+            <p>My first ever website was created for launching a tourism company. This was an opportunity to showcase who we are and how we want to develop our business further, including our future plans.</p>
+            <img src="Capture333.PNG" alt="Futourism website screenshot" class="project-card__screenshot" />
+            <p>Please feel free to explore this website by <a class="project-inline-link" href="https://futourismblog.wordpress.com/" target="_blank" rel="noopener">clicking here</a>.</p>
+
+            <p>During my minor at Rotterdam Business School, I had to build a website with some content. Later, I used this website to write blogs and showcase my proudest project — <a class="project-inline-link" href="https://innodamn.wordpress.com/projects/" target="_blank" rel="noopener">Wine Therapy</a>.</p>
+            <p>I used this website as a portfolio, but I wasn't inspired to continue further. I left this website as it is. Now, Talu.Studio is born.</p>
+            <img src="xxxx.PNG" alt="Inno-Damn website screenshot" class="project-card__screenshot" />
+
+            <p>For this website, I designed a moving logo using my favourite colours. The name came from the idea of writing news regarding innovation, smart tourism, and more.</p>
+            <img src="Pink Organic and Feminine Fashion Logo.gif" alt="Animated logo" class="project-card__screenshot project-card__screenshot--small" />
+
+            <h4 class="project-card__subheading">PortXL website project</h4>
+            <p>During my time at PortXL, I focused heavily on improving the website. I worked on this project for several months, starting with documentation and providing explanations to my team. I then analysed the competitors and ultimately generated ideas to align with business goals.</p>
+            <p>Here is the final presentation I showed to higher-ups. You can download it using the button below.</p>
+            <a href="PortXL_website_strategy.pptx" class="btn btn--outline" download>Download presentation</a>
+            <p style="margin-top:1rem;">Please keep in mind that the current PortXL website looks different.</p>
+            <p>If you're curious to learn about the actual process behind it, please use the contact form on the home page.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Tab: Articles ── -->
+      <div class="project-panel" id="tab-articles" hidden>
+        <div class="project-card">
+          <div class="project-card__top">
+            <div class="project-card__meta">
+              <h3 class="project-card__title">Articles</h3>
+              <p class="project-card__subtitle">Written at PortXL · 2022–2023</p>
+            </div>
+          </div>
+
+          <div class="project-card__body">
+            <ul class="article-list">
+              <li class="article-list__item">
+                <div class="article-list__meta">
+                  <span class="article-list__date">May 2023</span>
+                  <span class="article-list__tag">Alumni feature</span>
+                </div>
+                <a class="article-list__title" href="https://portxl.org/alumni-feature/alumni-spring-roundup/" target="_blank" rel="noopener">
+                  Alumni Spring Roundup ↗
+                </a>
+                <p class="article-list__desc">Covering three major developments from PortXL alumni: clean energy partnerships, a $30M investment round, and a new container loss prevention system for maritime environments.</p>
+              </li>
+
+              <li class="article-list__item">
+                <div class="article-list__meta">
+                  <span class="article-list__date">Mar 2023</span>
+                  <span class="article-list__tag">Alumni feature</span>
+                </div>
+                <a class="article-list__title" href="https://portxl.org/alumni-feature/rotterdam-reef-successfully-installed-for-nature-and-shoreline-protection/" target="_blank" rel="noopener">
+                  Rotterdam Reef Successfully Installed for Nature and Shoreline Protection ↗
+                </a>
+                <p class="article-list__desc">Reporting on Reefy's installation of 17 ReefBlocks in the Meuse River — a nature-based coastal defence system that restores biodiversity while protecting shorelines from ship waves.</p>
+              </li>
+
+              <li class="article-list__item">
+                <div class="article-list__meta">
+                  <span class="article-list__date">Jan 2023</span>
+                  <span class="article-list__tag">News</span>
+                </div>
+                <a class="article-list__title" href="https://portxl.org/news/portxl-visits-the-european-space-agency/" target="_blank" rel="noopener">
+                  PortXL Visits the European Space Agency ↗
+                </a>
+                <p class="article-list__desc">Covering PortXL's visit to ESA's Concurrent Design Facility in Noordwijk, spotlighting startup DecisionHall and their Climate Action Center built on ESA design methodologies.</p>
+              </li>
+
+              <li class="article-list__item">
+                <div class="article-list__meta">
+                  <span class="article-list__date">Nov 2022</span>
+                  <span class="article-list__tag">News</span>
+                </div>
+                <a class="article-list__title" href="https://portxl.org/news/highlighting-future-collaborations/" target="_blank" rel="noopener">
+                  Highlighting Future Collaborations ↗
+                </a>
+                <p class="article-list__desc">Announcing PortXL's year-end Shakedown demo day, showcasing 13 startup and scale-up teams from the 2022 decarbonisation cohort.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="section" id="contact">
+    <div class="container container--narrow">
+      <div class="contact__inner">
+        <span class="label-tag">Contact</span>
+        <h2 class="contact__heading">
+          Let's talk.
+        </h2>
+        <p class="contact__sub">
+          Open to project administration, marketing operations and coordinator
+          roles across the Netherlands.
+        </p>
+        <a href="mailto:karolinatalutyte@gmail.com" class="btn btn--primary btn--large">
+          karolinatalutyte@gmail.com
+        </a>
+        <p class="contact__phone">+31 655 548 827</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer__nav">
+        <a href="#about">About</a>
+        <a href="#experience">Work</a>
+        <a href="#tools">Tools</a>
+        <a href="#interests">Interests</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__social">
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/karolina-talutyte-0ba236160/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/t.carolle/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+          </svg>
+        </a>
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@karllovevinyls" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.28 8.28 0 004.84 1.56V6.79a4.85 4.85 0 01-1.07-.1z"/>
+          </svg>
+        </a>
+        <!-- Spotify -->
+        <a href="https://open.spotify.com/user/21mj4yonou2sa5rp6gwehywbq" target="_blank" rel="noopener" aria-label="Spotify">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+          </svg>
+        </a>
+      </div>
+      <p class="footer__copy">© 2026 Karolina Talutyte · Rotterdam</p>
+    </div>
+  </footer>
+
+  <script>
+    // ── Mobile menu ──
+    function toggleMenu() {
+      document.querySelector('.nav__links').classList.toggle('nav__links--open');
+    }
+    document.querySelectorAll('.nav__links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.nav__links').classList.remove('nav__links--open');
+      });
+    });
+
+    // ── Smooth scroll ──
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // ── Nav shadow on scroll ──
+    window.addEventListener('scroll', () => {
+      document.querySelector('.nav').classList.toggle('nav--scrolled', window.scrollY > 20);
+    });
+
+    // ── Project tabs ──
+    document.querySelectorAll('.project-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.project-tab').forEach(t => {
+          t.classList.remove('project-tab--active');
+          t.setAttribute('aria-selected', 'false');
+        });
+        document.querySelectorAll('.project-panel').forEach(p => p.hidden = true);
+        tab.classList.add('project-tab--active');
+        tab.setAttribute('aria-selected', 'true');
+        document.getElementById('tab-' + tab.dataset.tab).hidden = false;
+      });
+    });
+
+    // ── Timeline accordion ──
+    document.querySelectorAll('.timeline__header').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.timeline__item');
+        const isOpen = item.classList.contains('is-open');
+        item.classList.toggle('is-open', !isOpen);
+        btn.setAttribute('aria-expanded', String(!isOpen));
+      });
+    });
+  </script>
+
+</body>
+</html>
