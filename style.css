@@ -681,6 +681,21 @@ img { max-width: 100%; display: block; }
   margin-bottom: 2rem;
 }
 
+.project-card__gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.project-card__gallery img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 10px;
+  border: 1px solid var(--ink-10);
+  display: block;
+}
+
 .project-card__body p {
   font-size: 0.95rem;
   color: var(--ink-60);
